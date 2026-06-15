@@ -15,7 +15,7 @@ export const POST = async (req: Request) => {
     }
 
     const result = await generateText({
-      model: google("gemini-1.5-flash"),
+      model: google("gemini-2.5-flash"),
       output: Output.object({ schema: businessTripSchema }),
       system: `あなたは優秀な経理・総務アシスタントです。
 ユーザーの入力テキストから出張申請情報を抽出し、指定されたスキーマに従って出力してください。
