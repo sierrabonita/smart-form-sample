@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# smart-form-sample
 
-## Getting Started
+An intelligent Next.js form application featuring AI-powered auto-fill and real-time state synchronization.
 
-First, run the development server:
+🌍 **Live Demo:** https://smart-form-sample.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🤖 Harness Engineering (AI Governance)
+- **AI Agent Guardrails:** AGENTS.md (Context provisioning and coding rules for AI assistants)
+- **Prompt Engineering:** PROMPTS.md (Historical log of prompts used to generate and debug code)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Package Manager:** npm
+- **Runtime:** Node.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Libraries (Application Logic)
 
-## Learn More
+- **AI Integration:** Vercel AI SDK (`ai`, `@ai-sdk/google`(`gemini-2.5-flash`))
+- **Form Management:** react-hook-form, @hookform/resolvers
+- **Validation & Schema:** zod
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 UI & Design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Styling:** Tailwind CSS
+- **Micro-interactions:** Custom CSS Keyframe Animations (For Auto-fill Highlighting)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚙️ Tooling & Quality
 
-## Deploy on Vercel
+- **Linting:** ESLint (Next.js default)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📋 Commit Message Format
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+|Prefix||
+|---|---|
+|feat|A new feature
+|fix|A bug fix|
+|docs|Documentation only changes|
+|style|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)|
+|refactor|A code change that neither fixes a bug nor adds a feature|
+|perf|A code change that improves performance|
+|test|Adding missing or correcting existing tests|
+|chore|Changes to the build process or auxiliary tools and libraries such as documentation generation|
