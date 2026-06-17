@@ -24,7 +24,6 @@ An intelligent Next.js form application featuring AI-powered auto-fill and real-
 ## 🎨 UI & Design
 
 - **Styling:** Tailwind CSS
-- **Micro-interactions:** Custom CSS Keyframe Animations (For Auto-fill Highlighting)
 
 ## ⚙️ Tooling & Quality
 
